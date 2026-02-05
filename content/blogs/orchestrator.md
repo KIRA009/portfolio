@@ -6,6 +6,7 @@ description: "Building a Self-Scaling Container Orchestrator from Scratch with G
 summary: "A deep dive into systems engineering: how to build an elastic task engine using Go, Redis, and the Docker SDK, featuring custom autoscaling, scale-to-zero logic, and synchronous log streaming."
 showToc: false
 disableAnchoredHeadings: false
+githubLink: "https://github.com/KIRA009/orchestrator"
 
 ---
 

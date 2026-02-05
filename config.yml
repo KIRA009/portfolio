@@ -55,7 +55,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: https://drive.google.com/file/d/1SzTB4iUy9OdRbW53K3jd-8ggf0WE3_VP/view?usp=sharing
         - name: Email
           url: mailto:shohanduttaroy99@gmail.com
         - name: GitHub

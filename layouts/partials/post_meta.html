@@ -12,6 +12,10 @@
 {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
+{{- if (.Param "githubLink") -}}
+{{- $scratch.Add "meta" (slice (printf "<a href='%s' target='_blank'>GitHub</a>" (.Param "githubLink"))) }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;&middot;&nbsp;" | safeHTML -}}
 {{- end -}}
