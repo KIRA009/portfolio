@@ -1,0 +1,84 @@
+baseURL: "https://kira009.github.io/portfolio" 
+title: Shohan Dutta Roy
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Blogs
+          url: blogs/
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 6
+
+params:
+    description: "Shohan Dutta Roy's portfolio"
+    author: Shohan Dutta Roy
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: false
+    ShowShareButtons: false
+    ShowReadingTime: true
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["blogs"]
+    ShowToc: false
+    disableScrollToTop: false
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Shohan Dutta Roy
+          subtitle: "Senior developer at Storylane (YC S21)"
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: Blogs
+              url: blogs/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:shohanduttaroy99@gmail.com
+        - name: GitHub
+          url: https://github.com/KIRA009
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Shohan Dutta Roy"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
