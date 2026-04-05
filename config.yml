@@ -70,6 +70,7 @@ params:
       text: "Shohan Dutta Roy"
       icon: favicon.ico
       iconHeight: 18
+    GoogleAnalyticsID: 'G-DWPS62H510'
 
 markup:
     goldmark:
