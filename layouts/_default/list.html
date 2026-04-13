@@ -25,6 +25,10 @@
 
 {{- $pages := union .RegularPages .Sections }}
 
+{{- if .Param "reverseOrder" }}
+{{- $pages = $pages.ByDate }}
+{{- end }}
+
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
