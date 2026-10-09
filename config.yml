@@ -12,6 +12,9 @@ taxonomies:
 
 menu:
     main:
+        - name: Projects
+          url: projects/
+          weight: 4
         - name: Blogs
           url: blogs/
           weight: 5
@@ -50,6 +53,8 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
+            - name: Projects
+              url: projects/
             - name: Blogs
               url: blogs/
 
